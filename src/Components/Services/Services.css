@@ -1,0 +1,61 @@
+.services{
+    padding: 0 3 rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 9rem;
+    margin-bottom: 13rem;
+    padding-left: 50px;
+ 
+
+   
+}
+.awesome{
+   
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    height:  30px;
+    font-weight: bold;
+   
+}
+.awesome>  :nth-child(1){
+    color : black;
+    font-size : 2.5rem;
+    font-weight : bold;
+}
+.awesome>  :nth-child(2){
+
+    color : orange;
+    font-size : 2.5rem;
+    font-weight : bold;
+}
+
+.awesome>  :nth-child(3){
+
+    color : gray;
+    font-size : 14px;
+    margin-top: 1rem;
+   
+}
+.s-button {
+  
+    height: 50px;
+    width: 110px;
+    margin-top: 2rem;
+}
+.s-button:hover{
+    color: orange;
+    cursor: pointer;
+}
+.cards {
+    position: relative;
+    border: 1 px;
+    border-radius: 10px;
+}
+.card >* {
+    position: absolute;
+}
+
+
+    
+

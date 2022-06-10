@@ -1,0 +1,73 @@
+.contact-form {
+    padding: 0.3rem 0 3rem;
+    display: grid;
+    height: 50vh;
+    margin-top:  -40rem;
+     margin-left: 10rem;
+     border: 2px;
+}
+.c-right{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    flex: 2;
+
+}
+
+.c-right>form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    border: 25px solid whitesmoke;
+    border-collapse: 60rem;
+     background-color: grey;
+     
+     height: 5 rem;
+}   
+     
+.c-right>form :hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+.c-right.user{
+  
+    width: 20rem;
+    height: 2rem;
+    padding:0.3em;
+    outline: none;
+    border: 10px solid  var(orange);
+    border-radius: 8px;
+    font-size: 16px;
+    
+}
+ textarea{
+     height: 4rem!important;
+ }
+ .c-blur1{
+     top: 1rem;
+     left: 8rem;
+ }
+ .awsome{
+    
+   
+        flex-direction: column;
+        position: relative;
+        display: flex;
+       
+         color: orange;
+        padding-left: 10rem;
+         margin-right: 20rem;
+         margin-left: 15rem;
+         margin-top: -75px;
+         font-size: x-large;
+       
+        
+
+     
+   
+       
+    }
+  
