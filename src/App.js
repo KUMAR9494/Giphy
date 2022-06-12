@@ -1,14 +1,12 @@
 import React from 'react'
-import Header from './Todo/Header'
+import Giphy from './Giphy'
+
 
 
 const App = () => {
   return (
-   
     <div>
-
-      <Header/>
-      
+      <Giphy/>
     </div>
   )
 }
